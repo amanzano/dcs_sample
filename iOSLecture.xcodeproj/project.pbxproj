@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50516971883B6D0007F0411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50516961883B6D0007F0411 /* Main.storyboard */; };
 		A59C637B18838F6100FF18E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C637A18838F6100FF18E0 /* Foundation.framework */; };
 		A59C637D18838F6100FF18E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C637C18838F6100FF18E0 /* CoreGraphics.framework */; };
 		A59C637F18838F6100FF18E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C637E18838F6100FF18E0 /* UIKit.framework */; };
@@ -19,6 +20,9 @@
 		A59C639618838F6100FF18E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C637E18838F6100FF18E0 /* UIKit.framework */; };
 		A59C639E18838F6100FF18E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A59C639C18838F6100FF18E0 /* InfoPlist.strings */; };
 		A59C63A018838F6100FF18E0 /* iOSLectureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A59C639F18838F6100FF18E0 /* iOSLectureTests.m */; };
+		A5FD785018A37FB600304506 /* DCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD784F18A37FB600304506 /* DCSViewController.m */; };
+		A5FD785318A381A800304506 /* DCSListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD785218A381A800304506 /* DCSListViewController.m */; };
+		A5FD785618A3B08600304506 /* DCSToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD785518A3B08600304506 /* DCSToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A50516961883B6D0007F0411 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A59C637718838F6100FF18E0 /* iOSLecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59C637A18838F6100FF18E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A59C637C18838F6100FF18E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,12 @@
 		A59C639B18838F6100FF18E0 /* iOSLectureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSLectureTests-Info.plist"; sourceTree = "<group>"; };
 		A59C639D18838F6100FF18E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A59C639F18838F6100FF18E0 /* iOSLectureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLectureTests.m; sourceTree = "<group>"; };
+		A5FD784E18A37FB600304506 /* DCSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSViewController.h; sourceTree = "<group>"; };
+		A5FD784F18A37FB600304506 /* DCSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSViewController.m; sourceTree = "<group>"; };
+		A5FD785118A381A800304506 /* DCSListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSListViewController.h; sourceTree = "<group>"; };
+		A5FD785218A381A800304506 /* DCSListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSListViewController.m; sourceTree = "<group>"; };
+		A5FD785418A3B08600304506 /* DCSToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSToDoItem.h; sourceTree = "<group>"; };
+		A5FD785518A3B08600304506 /* DCSToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +120,13 @@
 			children = (
 				A59C638918838F6100FF18E0 /* DCSAppDelegate.h */,
 				A59C638A18838F6100FF18E0 /* DCSAppDelegate.m */,
+				A50516961883B6D0007F0411 /* Main.storyboard */,
+				A5FD784E18A37FB600304506 /* DCSViewController.h */,
+				A5FD784F18A37FB600304506 /* DCSViewController.m */,
+				A5FD785118A381A800304506 /* DCSListViewController.h */,
+				A5FD785218A381A800304506 /* DCSListViewController.m */,
+				A5FD785418A3B08600304506 /* DCSToDoItem.h */,
+				A5FD785518A3B08600304506 /* DCSToDoItem.m */,
 				A59C638C18838F6100FF18E0 /* Images.xcassets */,
 				A59C638118838F6100FF18E0 /* Supporting Files */,
 			);
@@ -221,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A59C638518838F6100FF18E0 /* InfoPlist.strings in Resources */,
+				A50516971883B6D0007F0411 /* Main.storyboard in Resources */,
 				A59C638D18838F6100FF18E0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A59C638718838F6100FF18E0 /* main.m in Sources */,
+				A5FD785018A37FB600304506 /* DCSViewController.m in Sources */,
 				A59C638B18838F6100FF18E0 /* DCSAppDelegate.m in Sources */,
+				A5FD785618A3B08600304506 /* DCSToDoItem.m in Sources */,
+				A5FD785318A381A800304506 /* DCSListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +464,7 @@
 				A59C63A518838F6100FF18E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A59C63A618838F6100FF18E0 /* Build configuration list for PBXNativeTarget "iOSLectureTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +473,7 @@
 				A59C63A818838F6100FF18E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
